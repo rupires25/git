@@ -20,5 +20,7 @@ class MainActivity : AppCompatActivity() {
         //change something
 
         //new comment
+
+        //something from branch funcionalidade1
     }
 }
