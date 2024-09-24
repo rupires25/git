@@ -22,5 +22,7 @@ class MainActivity : AppCompatActivity() {
         //new comment
 
         //something from new branch funcionalidade1
+
+        //something from new branch funcionalidade1 commit 1
     }
 }
