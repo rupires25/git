@@ -18,5 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         //change something
+
+        //new comment
     }
 }
