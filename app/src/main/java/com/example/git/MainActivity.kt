@@ -1,6 +1,7 @@
 package com.example.git
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,20 +17,23 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    Log.d("****TAG", "onCreate")
 
-        //change something
+        }
 
-        //new comment
-
-        //something from new branch funcionalidade1
-
-        //something from new branch funcionalidade1 commit 1
-
-        //something from new branch funcionalidade1 commit 2
-
-        //something from new branch funcionalidade1 commit 3
-
+    override fun onPause(){
+        super.onPause()
+        Log.d("****TAG", "onPause")
     }
 
+    override fun onStop() {
+        super.onStop()
+        Log.d("****TAG", "onStop")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("****TAG", "onStart")
+    }
 
 }
